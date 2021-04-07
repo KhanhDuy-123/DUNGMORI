@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+      "assets": ["assets/*"],
+      "routers": ["routers/*"],
+      "screens": ["screens/*"],
+      "states": ["states/*"],
+      "components": ["components/*"],
+      "networking": ["networking/*"],
+      "helpers": ["helpers/*"],
+      "utils": ["utils/*"],
+      "databases": ["databases/*"]
+    }
+  }
+}

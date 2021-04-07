@@ -1,0 +1,21 @@
+export default {
+  N1: { ID: 17 },
+  N2: { ID: 16 },
+  N3: { ID: 3 },
+  N4: { ID: 4 },
+  N5: { ID: 5 },
+  KAIWA: { ID: 21 },
+  KAIWA_SOCAP: { ID: 25 },
+  KAIWA_TRUNGCAP: { ID: 26 },
+  SPECIAL: { ID: 22 },
+  EJU_TN: { ID: 8 },
+  EJU_TOAN: { ID: 9 },
+  EJU_XHTH: { ID: 10 },
+  N4_ADDITIONAL: { ID: 27 },
+  N3_ADDITIONAL: { ID: 28 },
+  N2_ADDITIONAL: { ID: 29 },
+  N4_PRACTICE: { ID: 30 },
+  N3_PRACTICE: { ID: 31 },
+  N2_PRACTICE: { ID: 32 },
+  N1_PRACTICE: { ID: 33 }
+};

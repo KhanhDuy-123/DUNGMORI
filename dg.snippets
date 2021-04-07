@@ -1,0 +1,125 @@
+{
+	// Copy it to /Users/[USER]/Library/Application\ Support/Code/User/snippets 
+	"CO Console log": {
+		"scope": "javascript,typescript",
+		"prefix": "colog",
+		"body": [
+			"console.log('$1');",
+		],
+		"description": "Console log"
+	},
+	"CC Console log": {
+		"scope": "javascript,typescript",
+		"prefix": "cclog",
+		"body": [
+			"console.log('$1');",
+		],
+		"description": "Console log"
+	},
+	"Funcs log": {
+		"scope": "javascript,typescript",
+		"prefix": "flog",
+		"body": [
+			"Funcs.log('$1');",
+		],
+		"description": "Create funcs log"
+	},
+	"For i": {
+		"scope": "javascript,typescript",
+		"prefix": "fori",
+		"body": [
+			"for (let ${1} = 0; ${1}<${2}.length; ${1} += 1) {",
+			"${3}",
+			"}"
+		]
+	},
+	"Vector icon import": {
+		"scope": "javascript,typescript",
+		"prefix": "vecimport",
+		"body": [
+			"import ${1} from 'react-native-vector-icons/${1}';"
+		]
+	},
+	"Create vector icon": {
+		"scope": "javascript,typescript",
+		"prefix": "veccreate",
+		"body": [
+			"<${1} name={ '${2}' } size={ ${3} } color={ '${4}' }/>"
+		]
+	},
+	"Create function": {
+		"scope": "javascript,typescript",
+		"prefix": "func",
+		"body": [
+			"function ${1:name}(${2}) {",
+			"${3}",
+			"}"
+		]
+	},
+	"Create arrow function": {
+		"scope": "javascript,typescript",
+		"prefix": "afunc",
+		"body": [
+			"${1:name} = (${2})=> {",
+			"${3}",
+			"}"
+		]
+	},
+	"Create es6 function": {
+		"scope": "javascript,typescript",
+		"prefix": "funces6",
+		"body": [
+			"${1:name}: function(${2}) {",
+			"${3}",
+			"},"
+		]
+	},
+	"Try catch": {
+		"scope": "javascript,typescript",
+		"prefix": "tryc",
+		"body": [
+			"try {",
+			"${1}",
+			"} ",
+			"catch (err) {",
+			"console.log('ERROR', err);",
+			"}"
+		]
+	},
+	"Create PureComponent": {
+		"scope": "javascript,typescript",
+		"prefix": "createpure",
+		"body": [
+			"import React from 'react';",
+			"import { ${2} } from 'react-native';",
+			"export default class ${1} extends React.PureComponent {",
+			"constructor(){",
+			"super();",
+			"}",
+			"render(){",
+			"return(",
+			"${3}",
+			");",
+			"}",
+			"}",
+		]
+	},
+	"Create Component": {
+		"scope": "javascript,typescript",
+		"prefix": "createcomp",
+		"body": [
+			"import React from 'react';",
+			"import { ${2} } from 'react-native';",
+			"export default class ${1} extends React.Component {",
+			"constructor(){",
+			"super();",
+			"}",
+			"render(){",
+			"return(",
+			"${3}",
+			");",
+			"}",
+			"}",
+		]
+	}
+}
